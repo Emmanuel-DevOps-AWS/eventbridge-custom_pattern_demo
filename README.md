@@ -10,7 +10,7 @@ Steps
         - make sure this Lambda function has CloudWatch permission
 - Create an event bus
 - Create a rule for the newly created eventbus
-    - For the custom rule pattern, paste the content of the '''custom_rule.json''' file
+    - For the custom rule pattern, paste the content of the "custom_rule.json" file
     - Specify that the target should be a Lambda Function and select you read_event Lambda function as the target
     - Review and create your rule
 - Navigate to the publish_event Lambda function and create 2 test
